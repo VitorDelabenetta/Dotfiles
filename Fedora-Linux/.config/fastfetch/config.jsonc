@@ -1,0 +1,116 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "$HOME/.config/fastfetch/images/frieren.png",
+        "height": 18,
+        "padding": {
+            "top": 1
+        }
+    },
+    "display": {
+        "separator": ": "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "key": "Master",
+            "keyColor": "1"
+        },
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "format": "{2} {9}",
+            "key": "   System",
+            "keyColor": "35"
+        },
+        {
+            "type": "host",
+            "key": " 󰍹  Laptop",
+            "keyColor": "35"
+        },
+        {
+            "type": "cpu",
+            "format": "{1}",
+            "key": "   CPU",
+            "keyColor": "35"
+        },
+        {
+            "type": "gpu",
+            "format": "{2}",
+            "key": " 󰊴  GPU",
+            "keyColor": "35"
+        },
+        {
+            "type": "memory",
+            "key": "   Memory",
+            "format": "{1} / {2}",
+            "keyColor": "35"
+        },      
+        {
+            "type": "disk",
+            "key": " 󰋊  Disk",
+            "format": "{1} / {2} [{3}]",
+            "keyColor": "35"
+        },
+        {
+            "type": "custom",
+            "format": "└───────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[36m Eat  , Sleep  , Linux  "
+        },
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────────────────┐"
+        },
+        {
+            "type": "de",
+            "key": " 󰀻  DE",
+            "keyColor": "36"
+        },
+        {
+
+            "type": "wm",
+            "key": "   WM",
+            "keyColor": "36"
+        },
+        {
+            "type": "packages",
+            "key": " 󰏗  Packages",
+            "keyColor": "36"
+        },
+        {
+            "type": "terminal",
+            "key": " 󰄛  Terminal",
+            "format": "{1}",
+            "keyColor": "36"
+        },
+        {
+            "type": "uptime",
+            "key": " 󱫐  Uptime ",
+            "keyColor": "36"
+        },
+        {
+            "type": "command",
+            "key": " 󱦟  Age",
+            "keyColor": "36",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "custom",
+            "format": "└───────────────────────────────────────┘"
+        },
+	{
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        },
+        "break"
+        
+    ]
+}

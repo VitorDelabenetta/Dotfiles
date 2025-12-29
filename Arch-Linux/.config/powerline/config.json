@@ -1,0 +1,13 @@
+{
+	"common": {
+		"term_truecolor": false
+	},
+	"shell": {
+			"colorscheme": "default",
+			"theme": "default",
+			"local_themes": {
+			"continuation": "continuation",
+		  "select": "select"
+	  }
+	}
+}
