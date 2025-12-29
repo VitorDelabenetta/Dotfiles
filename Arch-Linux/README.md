@@ -238,18 +238,18 @@ A pasta "system-folders" contém dois arquivos principais: o bashrc, que deve es
 
 ## Pré-Visualização
 
-<img src="./Arch-Linux/preview/terminal_preview.png" alt="system-interface" style="width: 100%">
+<img src="./preview/terminal_preview.png" alt="system-interface" style="width: 100%">
 
 <i>Imagem de preview da interface do sistema e do terminal Kitty</i>
 
-<img src="./Arch-Linux/preview/neovim_configuration.png" alt="neovim-interface" style="width: 100%">
+<img src="./preview/neovim_configuration.png" alt="neovim-interface" style="width: 100%">
 
 <i>Imagem de preview da interface do Neovim - com o tema Catppuccin</i>
 
-<img src="./Arch-Linux/preview/wofi_preview.png" alt="wofi-interface" style="width: 100%">
+<img src="./preview/wofi_preview.png" alt="wofi-interface" style="width: 100%">
 
 <i>Imagem de preview do buscador de programas Wofi</i>
 
-<img src="./Arch-Linux/preview/wlogout_preview.png" alt="wlogout-interface" style="width: 100%">
+<img src="./preview/wlogout_preview.png" alt="wlogout-interface" style="width: 100%">
 
 <i>Imagem de preview da interface do Wlogout</i>
