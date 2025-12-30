@@ -1,16 +1,16 @@
-# Fedora
+<div align="center">
+
+# Configurações do Fedora
 ![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
 
-## Configurações do Sistema
+Para a customização do Fedora, utilizei basicamente os dotfiles do <a href="../Arch-Linux/README.md">Arch Linux</a>. Entretanto, várias modificações foram necessárias para adaptá-lo aos critérios de funcionamento do Sway - algumas alterações estéticas foram realizadas, tendo como base outros ricings do Reddit.
 
-Para realizar a configuração do Fedora, utilizei basicamente dos dotfiles do Arch Linux, com várias modificações para adaptá-lo aos critérios de funcionamento do Sway. As customizações estéticas foram realizadas basicamente seguindo outros Ricings postados no Reddit.
+</div>
 
 <br>
 
-### Pré-Visualização
+## Pré-Visualização
 
 <img src="./preview/fedora_interface.png" alt="system-interface" style="width: 100%"/>
-
-<i>Imagem de preview das configurações e da interface do sistema</i>
 
 <br>
