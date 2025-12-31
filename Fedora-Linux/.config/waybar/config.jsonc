@@ -48,7 +48,8 @@
 
   "pulseaudio": {
       "format": "<span color='#9399b2'>|</span> VOL  {volume}%",
-      "on-click": "pactl set-sink-mute 0 toggle"
+      "format-muted": "VOL MUTED",
+      "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle"
   },
 
   "network": {
