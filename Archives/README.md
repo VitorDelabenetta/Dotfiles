@@ -1,12 +1,16 @@
-## Arquivos Gerais
+<div align="center">
+    
+# Arquivos Gerais
 
-Esta pasta possui alguns arquivos e informações úteis para a utilização do Arch Linux e para a construção de projetos (sobretudo projetos Front-End). Neste documento, também deixo alguns comandos e atalhos que facilitam a minha usabilidade - você provavelmente irá querer criar as suas próprias configurações.
+Este diretório está destinado para o armazenamento de arquivos importantes e para instruções de construção de projetos (sobretudo projetos Front-End). Mais ao final deste documento, deixo também alguns comandos e atalhos que facilitam a usabilidade dos sistemas.
+
+</div>
 
 <br>
 
-### Apresentação dos Arquivos
+## Estrutura de Projetos Front-End
 
-Um dos arquivos que está presente aqui é o <i>projects_structure.png</i>. Como faço alguns projetos básicos de Front-End nas minhas horas livres (que são poucas), tenho esse padrão que sigo de estruturação e organização das pastas.
+Um dos arquivos que está presente aqui é o <i>projects_structure.png</i>. Como faço alguns projetos básicos de Front-End nas minhas horas livres, tenho esse padrão que sigo de estruturação e organização das pastas.
 
 <br>
 
@@ -14,10 +18,9 @@ Um dos arquivos que está presente aqui é o <i>projects_structure.png</i>. Como
 
 <br>
 
-### Comandos
+## Comandos e Shortcuts
 
-Ao utilizar o Arch com uma tiling window manager como o Hyprland, acabamos nos acostumando a não ter de sair do terminal para nossas operações diárias.\
-Além de aumentar a produtividade por agilizar as operações e não gastar tantos recursos da máquina, temos um maior controle dos processos através do teclado. Assim, nos acostumamos a criar shortcuts para navegar entre janelas, arquivos e programas.
+Ao utilizar uma distribuição Linux, sobretudo com um tiling window manager como o Hyprland ou Sway, acabamos nos acostumando a não ter de sair do terminal para operações diárias. Além de aumentar a produtividade por agilizar as tarefas e não gastar tantos recursos da máquina, temos um maior controle através do teclado. Assim, nos acostumamos a criar shortcuts para o melhor proveito do sistema.
 
 <br>
 
@@ -40,6 +43,7 @@ rm [filename]: remove file
 rm -r [directory]: remove directory
 mv [filename] [new filename]: rename file
 mv [filename] ./directory: move file
+cp [file] [destination]: copy files (add -r to replace if already exists in destination folder)
 
 &&: use more than one command at time (eg.: mkdir Teste && cd Teste)
 ```
