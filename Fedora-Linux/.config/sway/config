@@ -23,7 +23,8 @@ set $browser firefox
 ### Output configuration
 
 # Default wallpaper
-output * bg ~/.config/backgrounds/Purple.jpg fill
+#output * bg ~/.config/backgrounds/Frieren_Purple.jpg fill
+output * bg ~/.config/backgrounds/Anime_City.jpg fill
 
 # Monitors
 output HDMI-A-1 resolution 1920x1080 position 0,0
@@ -31,10 +32,10 @@ output eDP-1 resolution 1920x1080 position 1920,0
 
 ### Idle configuration
 
-exec swayidle -w \
-          timeout 300 'swaylock -f -c 000000' \
-          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-          before-sleep 'swaylock -f -c 000000'
+# exec swayidle -w \
+#          timeout 300 'swaylock -f -c 000000' \
+#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+#          before-sleep 'swaylock -f -c 000000'
 
 ### Input configuration
 
