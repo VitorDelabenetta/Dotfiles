@@ -1,0 +1,15 @@
+{
+    "label" : "lock",
+    "action" : "swaylock",
+    "text": "LOCK"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text": "REBOOT"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text": "SHUTDOWN"
+}
