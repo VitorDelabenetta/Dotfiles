@@ -16,11 +16,11 @@
 
 Diretórios com as configurações gerais realizadas para as distribuições Linux utilizadas ao longo do tempo. Atualmente são estas:
 
-> <a href="./Arch-Linux/README.md"><kbd> <br> Arch Linux (com Hyprland) <br> </kbd></a>
+> <a href="./Arch-Linux"><kbd> <br> Arch Linux (com Hyprland) <br> </kbd></a>
 > 
-> <a href="./Fedora-Linux/README.md"><kbd> <br> Fedora Linux (com Sway) <br> </kbd></a>
+> <a href="./Fedora-Linux"><kbd> <br> Fedora Linux (com Sway) <br> </kbd></a>
 > 
-> <a href="./Ubuntu-Desktop/README.md"><kbd> <br> Ubuntu Desktop <br> </kbd> </a>
+> <a href="./Ubuntu-Desktop"><kbd> <br> Ubuntu Desktop <br> </kbd> </a>
 
 <br>
 
