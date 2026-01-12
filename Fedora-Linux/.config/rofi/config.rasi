@@ -1,0 +1,163 @@
+// Config //
+configuration {
+    modi:                        "drun,filebrowser";
+    show-icons:                  true;
+    display-drun:                "Run";
+    display-filebrowser:         "Files";
+    drun-display-format:         "{name}";
+    window-format:               "{w}{t}";
+    font:                        "Noto Sans 12";
+    icon-theme:                  "Tela-circle-dracula";
+} 
+
+@theme "theme"
+
+// Main //
+window {
+    height:                      40%;
+    width:                       35%;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border:						           2px solid;
+    border-radius: 				       10px;
+    border-color:                @main-br;
+    background-color:            @main-bg;
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0em;
+    orientation:                 horizontal;
+    children:                    [ "dummywall" , "listbox" ];
+    background-color:            @darker-bg;
+}
+dummywall {
+    spacing:                     0%;
+    padding:                     0%;
+    width:                       8%;
+    expand:                      false;
+    orientation:                 horizontal;
+    children:                    [ "mode-switcher" ];
+    background-color:            transparent;
+}
+
+
+// Modes //
+mode-switcher{
+    orientation:                 vertical;
+    enabled:                     true;
+    width:                       5%;
+    padding:                     15% 0% 15% 1%;
+    spacing:                     2%;
+    background-color:            transparent;
+}
+button {
+    cursor:                      pointer;
+    border-radius:               50%;
+    background-color:            @main-bg;
+    text-color:                  @main-fg;
+}
+button selected {
+    background-color:            @main-br;
+    text-color:                  @main-bg;
+}
+
+
+// Inputs //
+inputbar {
+    enabled:                     true;
+    children:                    [ prompt, entry ];
+    spacing:                     0%;
+    padding:                     0%;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+
+prompt {
+	  enabled:                     true;
+	  padding:                     1% 1% 1% 1%;
+    text-align:                  center;
+    cursor:                      default;
+    background-color:            transparent;
+    text-color:                  @select-fg;
+    border:						           2px solid;
+    border-radius: 				       10px 0px 0px 10px;
+    border-color:                @main-br;
+    background-color:            @main-br;
+}
+
+entry {
+    enabled:                     true;
+    padding:                     1% 1% 1% 1%;
+    cursor:                      text;
+    background-color:            transparent;
+    text-color:                  @main-fg;
+    border:						           2px solid;
+    border-radius: 				       0px 10px 10px 0px;
+    border-color:                @main-br;
+    background-color:            @darker-bg;
+}
+
+
+// Lists //
+listbox {
+    spacing:                     2%;
+    padding:                     2%;
+    children:                    [ "inputbar" , "listview" , "dummy" ];
+    background-color:            @darker-bg;
+}
+listview {
+    enabled:                     true;
+    spacing:                     0px;
+    padding:                     0px;
+    columns:                     1;
+    lines:                       4;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    expand:                      false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+dummy {
+    background-color:            transparent;
+}
+
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     25px;
+    padding:                     8px 0px 8px 15px;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+element selected.normal {
+    background-color:            @main-br;
+    text-color:                  @select-fg;
+    border-radius:				       10px;
+}
+element-icon {
+    size:                        5%;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}

@@ -3,12 +3,15 @@
 
 /* See https://github.com/catppuccin/wlogout */
 
+
 * {
 	background-image: none;
 	box-shadow: none;
-  font-family: "Firacode Nerd Font";
-  font-size: 16px;
+  font-family: "Noto Sans";
   font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  color: #cba6f7;
 }
 
 window {
@@ -16,18 +19,15 @@ window {
 }
 
 button {
-	text-decoration-color: #cdd6f4;
-	color: #cba6f7;
-  letter-spacing: 0.8px;
+	border-radius: 0;
+	border-color: #cba6f7;
+	color: #cdd6f4;
 	background-color: #181825;
 	border-style: solid;
-	border-width: 2px;
-	border-radius: 25px;
-	border-color: #cba6f7;
+	border-width: 1px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 27%;
-  margin: 165px 25px;
+	background-size: 25%;
 }
 
 button:focus, button:active, button:hover {
