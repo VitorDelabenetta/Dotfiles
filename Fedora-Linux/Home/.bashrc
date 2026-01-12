@@ -30,7 +30,10 @@ fi
 unset rc
 
 # Alias configuration
-alias screen-record="wf-recorder --audio=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor -f record.mp4"
+#alias screen-record="wf-recorder --audio=alsa_output.pci-0000_00_1f.3.analog-stereo.monitor -f record.mp4"
+
+# Starting Starship
+eval "$(starship init bash)"
 
 # Inicializing with Neofetch
 fastfetch
