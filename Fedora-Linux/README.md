@@ -5,6 +5,8 @@
 
 Para a customização do Fedora, utilizei basicamente os dotfiles do <a href="../Arch-Linux/README.md">Arch Linux</a>. Entretanto, várias modificações foram necessárias para adaptá-lo aos critérios de funcionamento do Sway - algumas alterações estéticas foram realizadas, tendo como base outros ricings do Reddit.
 
+</div>
+
 <br>
 
 > [!NOTE]
