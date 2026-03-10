@@ -15,7 +15,7 @@ window {
 button {
 	border-radius: 0;
 	border-color: #cba6f7;
-  /* 
+  /*
   Peach:
   border-color: #fab387;
 
@@ -56,13 +56,13 @@ button:focus, button:active, button:hover {
 }
 
 #hibernate {
-    background-image: url("./icons/lavender/hibernate.svg");
+    background-image: url("./icons/mauve/hibernate.svg");
 }
 
 #shutdown {
-    background-image: url("./icons/lavender/shutdown.svg");
+    background-image: url("./icons/mauve/shutdown.svg");
 }
 
 #reboot {
-    background-image: url("./icons/lavender/reboot.svg");
+    background-image: url("./icons/mauve/reboot.svg");
 }

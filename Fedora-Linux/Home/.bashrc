@@ -35,5 +35,5 @@ unset rc
 # Starting Starship
 eval "$(starship init bash)"
 
-# Inicializing with Neofetch
+# Inicializing with Fastfetch
 fastfetch

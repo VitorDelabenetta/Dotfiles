@@ -1,0 +1,80 @@
+{
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "catppuccin-icons.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 12,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "window.confirmSaveUntitledWorkspace": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.fontFamily": "Fira Code, monospace",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.snippets.codeActions.enabled": false,
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "files.autoSave": "afterDelay",
+    "update.mode": "none",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorStyle": "block",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#1E1E2E",
+        "editorCursor.foreground": "#CBA6F7"
+    },
+    "editor.fontLigatures": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.codeLens": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": "on",
+    "files.trimTrailingWhitespace": true,
+    "breadcrumbs.enabled": false,
+    "editor.lineHeight": 1.5,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+            "scope": "comment",
+            "settings": {
+                "foreground": "#A6ADC8",
+                "fontStyle": "italic"
+            }
+        }]
+    },
+
+    "chat.agent.enabled": false,
+    "chat.checkpoints.enabled": false,
+    "chat.customAgentInSubagent.enabled": false,
+    "chat.agent.codeBlockProgress": false,
+    "chat.agent.thinking.collapsedTools": "off",
+    "chat.agent.thinking.generateTitles": false,
+    "chat.viewSessions.enabled": false,
+    "chat.tools.autoExpandFailures": false,
+    "chat.agentsControl.enabled": false,
+
+    "task.quickOpen.detail": false,
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://esm.sh": true
+    },
+    "grunt.autoDetect": "off"
+}
