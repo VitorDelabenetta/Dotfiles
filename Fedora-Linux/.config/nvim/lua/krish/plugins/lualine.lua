@@ -40,7 +40,7 @@ return {
     require('lualine').setup {
       options = {
         icons_enabled = true,
-        theme = 'palenight', 
+        theme = 'gruvbox_dark', 
         -- Auto: set theme based on environment variable
         -- "Dracula", "Nord", "Palenight", "Everforest"
 
