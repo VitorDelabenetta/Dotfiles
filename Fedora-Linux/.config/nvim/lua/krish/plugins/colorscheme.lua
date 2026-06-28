@@ -39,66 +39,51 @@
 
 
 -- Catppuccin
-return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    priority = 1000,
-    config = function()
-      require("catppuccin").setup({
-        flavour = "mocha", -- Options: latte, frappe, macchiato, mocha
-        transparent_background = true,
-        term_colors = true,
-        no_italic = false,
-        no_bold = false,
-        no_underline = false,
-        integrations = {
-          cmp = true,
-          gitsigns = true,
-          nvimtree = true,
-          telescope = true,
-          treesitter = true,
-          notify = false,
-          mini = {
-            enabled = true,
-            indentscope_color = "",
-          },
-          lsp_trouble = true,
-          which_key = true,
-        },
-      })
+-- return {
+--  {
+-- "catppuccin/nvim",
+--    name = "catppuccin",
+--    priority = 1000,
+--    config = function()
+--      require("catppuccin").setup({
+--        flavour = "mocha", -- Options: latte, frappe, macchiato, mocha
+--        transparent_background = true,
+--        term_colors = true,
+--        no_italic = false,
+--        no_bold = false,
+--        no_underline = false,
+--        integrations = {
+--          cmp = true,
+--          gitsigns = true,
+--          nvimtree = true,
+--          telescope = true,
+--          treesitter = true,
+--          notify = false,
+--          mini = {
+--            enabled = true,
+--            indentscope_color = "",
+--          },
+--          lsp_trouble = true,
+--          which_key = true,
+--        },
+--      })
       -- Apply the colorscheme
-      vim.cmd.colorscheme("catppuccin")
+--      vim.cmd.colorscheme("catppuccin")
 
       -- Make background fully transparent
-      vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-      vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
-      vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-      vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
-      vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
-      vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
-      vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
-      vim.api.nvim_set_hl(0, "MsgArea", { bg = "none" })
-      vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
-      vim.api.nvim_set_hl(0, "TabLine", { bg = "none" })
-      vim.api.nvim_set_hl(0, "TabLineFill", { bg = "none" })
-    end,
-  },
-}
-
---ONE_DARK
--- return {
---   {
---     "navarasu/onedark.nvim",
---     priority = 1000,
---     config = function()
---       require("onedark").setup {
---         style = "darker", -- or 'dark', 'cool', 'deep', 'warm', 'warmer'
---         transparent = true,
---       }
---       require("onedark").load()
---     end
---   }
+--      vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "MsgArea", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "TabLine", { bg = "none" })
+--      vim.api.nvim_set_hl(0, "TabLineFill", { bg = "none" })
+--    end,
+--  },
 -- }
 
 --SOLARIZED_OSAKA
@@ -190,35 +175,35 @@ return {
 -- }
 
 -- Gruvbox Material
--- return {
---   {
---     "f4z3r/gruvbox-material.nvim",
---     name = "gruvbox-material",
---     lazy = false, -- Load during startup
---     priority = 1000, -- High priority to ensure it loads before other plugins
---     config = function()
---       require("gruvbox-material").setup({
---         background = {
---           transparent = true, -- Enable transparent background
---         },
---         contrast = "medium", -- Options: "hard", "medium", "soft"
---         -- Optional: Other configurations
---         italics = true, -- Enable italics for certain elements
---         comments = { italics = true }, -- Italic comments
---         float = {
---           force_background = false, -- Ensure floating windows are transparent
---           background_color = nil, -- Use default colors for floats
---         },
---         signs = {
---           force_background = false, -- Ensure signs are transparent
---           background_color = nil, -- Use default colors for signs
---         },
---       })
---       -- Apply the colorscheme
---       vim.cmd([[colorscheme gruvbox-material]])
---     end,
---   },
--- }
+ return {
+   {
+     "f4z3r/gruvbox-material.nvim",
+     name = "gruvbox-material",
+     lazy = false, -- Load during startup
+     priority = 1000, -- High priority to ensure it loads before other plugins
+     config = function()
+       require("gruvbox-material").setup({
+         background = {
+           transparent = true, -- Enable transparent background
+         },
+         contrast = "medium", -- Options: "hard", "medium", "soft"
+         -- Optional: Other configurations
+         italics = true, -- Enable italics for certain elements
+         comments = { italics = true }, -- Italic comments
+         float = {
+           force_background = false, -- Ensure floating windows are transparent
+           background_color = nil, -- Use default colors for floats
+         },
+         signs = {
+           force_background = false, -- Ensure signs are transparent
+           background_color = nil, -- Use default colors for signs
+         },
+       })
+       -- Apply the colorscheme
+       vim.cmd([[colorscheme gruvbox-material]])
+     end,
+   },
+ }
 
 -- Rose pine
 -- return {

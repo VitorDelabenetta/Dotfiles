@@ -3,6 +3,12 @@
 
 /* See https://github.com/catppuccin/wlogout */
 
+/* Colors:
+mauve: #cba6f7
+lavender: #b4befe
+peach: #f5e0dc
+*/
+
 
 * {
 	background-image: none;
@@ -11,20 +17,19 @@
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.8px;
-  color: #cba6f7;
+  color: #f5e0dc;
 }
 
 window {
-	background-color: rgba(30, 30, 46, 0.90);
+	background-color: rgba(9, 4, 4, 0.80);
 }
 
 button {
-	border-radius: 0;
-	border-color: #cba6f7;
-	color: #cdd6f4;
-	background-color: #181825;
-	border-style: solid;
-	border-width: 1px;
+	border-radius: 0px;
+	border: 2px solid #f5e0dc;
+	color: #e1e0df;
+  margin: -1px;
+	background-color: #090404;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25%;
@@ -32,32 +37,32 @@ button {
 
 button:focus, button:active, button:hover {
 	/* 20% Overlay 2, 80% mantle */
-	background-color: rgb(48, 50, 66);
+	background-color: rgba(163, 160, 157, 0.6);
 	outline-style: none;
 }
 
 /* Icons */
 
 #lock {
-    background-image: url("./icons/mauve/lock.svg");
+    background-image: url("./icons/peach/lock.svg");
 }
 
 #logout {
-    background-image: url("./icons/mauve/logout.svg");
+    background-image: url("./icons/peach/logout.svg");
 }
 
 #suspend {
-    background-image: url("./icons/mauve/suspend.svg");
+    background-image: url("./icons/peach/suspend.svg");
 }
 
 #hibernate {
-    background-image: url("./icons/mauve/hibernate.svg");
+    background-image: url("./icons/peach/hibernate.svg");
 }
 
 #shutdown {
-    background-image: url("./icons/mauve/shutdown.svg");
+    background-image: url("./icons/peach/shutdown.svg");
 }
 
 #reboot {
-    background-image: url("./icons/mauve/reboot.svg");
+    background-image: url("./icons/peach/reboot.svg");
 }
