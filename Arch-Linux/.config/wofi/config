@@ -4,12 +4,12 @@
 show=drun
 term=kitty
 show_all=true
-gtk_dark=false
+gtk_dark=true
 location=center
 insensitive=false
 allow_markup=true
-allow_images=true
+allow_images=false
 line_wrap=word
-lines=6
-width=35%
+lines=5
+width=30%
 hide_scroll=true

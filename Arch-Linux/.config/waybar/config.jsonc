@@ -3,25 +3,24 @@
 
 {
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "clock", "custom/logout"],
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": [],
+  "modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "clock"],
 
-  "custom/logout": {
-    "format": "<span size='13000' foreground='#b4befe'>⏻ </span> Logout",
-    "on-click": "wlogout"
+  "hyprland/window": {
+    "format": "{initialTitle}"
   },
 
   "clock": {
-    "format": "<span foreground='#F5C2E7'>  </span>{:%a %d %H:%M}",
+    "format": "<span foreground='#FFEBE8'> </span>{:%a, %B %d [%H:%M]}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "calendar": {
       "mode": "month",
       "format": {
-        "months": "<span color='#FFFFFF'><b>{}</b></span>",
-        "weekdays": "<span color='#CBA6F7'><b>{}</b></span>",
-        "days": "<span color='#F5C2E7'><b>{}</b></span>",
-        "today": "<span color='#B4BEFE'><b><u>{}</u></b></span>"
+        "months": "<span color='#FFEBE8'><b>{}</b></span>",
+        "weekdays": "<span color='#FFEBE8'><b>{}</b></span>",
+        "days": "<span color='#FFEBE8'><b>{}</b></span>",
+        "today": "<span color='#FFEBE8'><b><u>{}</u></b></span>"
       }
     }
   },
@@ -31,19 +30,19 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "<span size='13000' foreground='#a6e3a1'>{icon} </span> {capacity}%",
-    "format-warning": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {capacity}%",
-    "format-critical": "<span size='13000' foreground='#E38C8F'>{icon} </span> {capacity}%",
-    "format-charging": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
-    "format-plugged": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
-    "format-alt": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {time}",
-    "format-full": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
+    "format": "<span size='13000' foreground='#FFEBE8'>{icon}</span> {capacity}%",
+    "format-warning": "<span size='13000' foreground='#FFEBE8'>{icon}</span> {capacity}%",
+    "format-critical": "<span size='13000' foreground='#FFEBE8'>{icon}</span> {capacity}%",
+    "format-charging": "<span size='13000' foreground='#FFEBE8'> </span>{capacity}%",
+    "format-plugged": "<span size='13000' foreground='#FFEBE8'> </span>{capacity}%",
+    "format-alt": "<span size='13000' foreground='#FFEBE8'>{icon}</span> {time}",
+    "format-full": "<span size='13000' foreground='#FFEBE8'> </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
   },
 
   "memory": {
-    "format": "<span size='13000' foreground='#CBA6F7'>󰣇 </span> {used:0.1f}G/{total:0.1f}G",
+    "format": "<span size='13000' foreground='#FFEBE8'></span> {used:0.1f}G/{total:0.1f}G",
     "interval": 5
   },
 
@@ -52,15 +51,15 @@
       "warning": 45,
       "critical": 60
     },
-    "format": "<span size='13000' foreground='#89DCEB'>󰍛 </span> {usage}%",
-    "format-warning": "<span size='13000' foreground='#89DCEB'>󰍛 </span> {usage}%",
-    "format-critical": "<span size='13000' foreground='#89DCEB'>󰍛 </span> {usage}%",
+    "format": "<span size='13000' foreground='#FFEBE8'>󰍛</span> {usage}%",
+    "format-warning": "<span size='13000' foreground='#FFEBE8'>󰍛</span> {usage}%",
+    "format-critical": "<span size='13000' foreground='#FFEBE8'>󰍛</span> {usage}%",
     "interval": 5
   },
 
   "pulseaudio": {
-      "format": "{icon}  {volume}%",
-      "format-muted": "  mute",
+      "format": "{icon} {volume}%",
+      "format-muted": " mute",
       "format-icons": {
           "default": ["", "", " "]
       },
@@ -68,10 +67,10 @@
   },
 
   "network": {
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
-    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>  </span> Disconnected",
+    "format-wifi": "<span size='13000' foreground='#FFEBE8'>  </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#FFEBE8'>  </span> Disconnected",
     "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Offline",
+    "format-disconnected": "<span size='13000' foreground='#FFEBE8'>󰤭  </span> Offline",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
     "on-click-right": "nmcli radio wifi off",
     "on-click": "nmcli radio wifi on" 

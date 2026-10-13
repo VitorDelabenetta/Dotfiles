@@ -2,22 +2,22 @@
   ▄█  █   █  █▄▄ ██▄*/
 
 
-@import "mocha.css"; 
+@import "colors.css"; 
 
 * {
     font-family: "Firacode Nerd Font";
-    font-size: 16px;
+    font-size: 14px;
     min-height: 0;
     font-weight: bold;
 }
 
 window#waybar {
     background: transparent;
-    background-color: @crust;
-    color: @overlay0;
+    background-color: @background0;
+    color: @fontstd;
     transition-property: background-color;
     transition-duration: 0.1s;
-    border-bottom: 1px solid @overlay1;
+    border-bottom: 1px solid @borderbottom;
 }
 
 #window {
@@ -33,29 +33,24 @@ button {
 }
 
 button:hover {
-    background: inherit;
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    background: transparent;
+    color: @wkspchover;
 }
 
 #workspaces button {
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
 #workspaces button.focused {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: @rosewater;
-    border-top: 2px solid @rosewater;
+    color: @wkspcfocus;
 }
 
 #workspaces button.active {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    color: @wkspcfocus;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #f38ba8;
 }
 
 #pulseaudio,
@@ -72,7 +67,7 @@ button:hover {
 #mode,
 #custom-logout,
 #scratchpad {
-  margin-top: 2px;
+  margin-top: 1px;
   margin-bottom: 2px;
   margin-left: 4px;
   margin-right: 4px;
@@ -80,44 +75,14 @@ button:hover {
   padding-right: 4px;
 }
 
-#custom-logout {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
-}
-
-#clock {
-    color: @maroon;
-    border-bottom: 2px solid @maroon;
-}
-
-#clock.date {
-    color: @mauve;
-    border-bottom: 2px solid @mauve;
-}
-
-#battery {
-    color: @green;
-    border-bottom: 2px solid @green;
-}
-
-#memory {
-    color: @mauve;
-    border-bottom: 2px solid @mauve;
-}
-
-#cpu {
-    color: @sky;
-    border-bottom: 2px solid @sky;
-}
-
-#pulseaudio {
-    color: @blue;
-    border-bottom: 2px solid @blue;
-}
-
+#clock,
+#clock.date, 
+#battery,
+#memory,
+#cpu,
+#pulseaudio,
 #network {
-    color: @yellow;
-    border-bottom: 2px solid @yellow;
+    color: @mainfont;
 }
 
 #idle_inhibitor {
